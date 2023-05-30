@@ -8,7 +8,7 @@ Holidays can create a huge impact on sales. So, if there is a good prediction on
 ### Stores.csv:
 It has three columns.
 Store: stores numbered from 1 to 45 Size : stores size has provided
-type : store type has been provided ,there are 3 types — A,B and C .
+type : store type has been provided ,there are 3 types — A,B and C.
 ### Train.csv
 It has five columns. Store: the store number 
 Dept: the department number Date : the week
@@ -18,7 +18,7 @@ It is same as train.csv except it does not have ‘IsHoliday’ Column.
 ### Features.csv
 It has eleven columns. Store: the store number Date: the week
 Temperature: average temperature in the region. Fuel_Price: cost of fuel in the region
-MarkDown1–5: anonymized data related to promotional markdowns that Walmart is running. Markdown data is only available after Nov 2011, and is not available for all stores all the time. Any missing value is marked with an NA. Selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact.
+MarkDown1–5: anonymized data related to promotional markdowns that Walmart is running. Any missing value is marked with an NA. Selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact.
 CPI — the consumer price index Unemployment : the unemployment rate.
 IsHoliday: whether the week is a special holiday week
 
